@@ -6,3 +6,5 @@ docker push mareuter/tai-runner:latest
 kubectl get pods -l name=tai-runner
 
 kubectl logs -l name=tai-runner
+
+kubectl delete ds tai-runner
