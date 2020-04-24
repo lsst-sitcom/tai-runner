@@ -1,3 +1,8 @@
-  docker build --force-rm --no-cache -t mareuter/tai-runner .
+docker build --force-rm --no-cache -t mareuter/tai-runner .
   
-  docker push mareuter/tai-runner:latest
+docker push mareuter/tai-runner:latest
+
+
+kubectl get pods -l name=tai-runner
+
+kubectl logs -l name=tai-runner
